@@ -1,0 +1,15 @@
+name: SkyblockStarterBundle
+main: Emir\Stb\Main
+version: 1.0.0
+api: 5.0.0
+author: Emir
+description: Gives Emir a Skyblock starter bundle with /stb
+commands:
+  stb:
+    description: Get your Skyblock starter bundle
+    usage: /stb
+    permission: stb.use
+permissions:
+  stb.use:
+    default: false
+    description: Allows using /stb

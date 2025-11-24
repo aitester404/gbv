@@ -1,0 +1,3 @@
+# Only players listed here can use /stb, regardless of permission.
+allowed-players:
+  - eBozoglu
