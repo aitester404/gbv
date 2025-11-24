@@ -1,8 +1,11 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/aitester404/gbv
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/BeeAZ-pm-pl/ASkyBlock
 build-by-default: true
 branches:
-- main
+- master
 projects:
-  ASkyBlock-master:
-    path: ASkyBlock-master/
+  ASkyBlock:
+    path: ""
+    libs:
+      - src: BeeAZ-pm-pl/FormBuilderX/FormBuilderX
+        version: ^1.0.0
 ...
